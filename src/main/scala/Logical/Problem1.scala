@@ -1,10 +1,16 @@
-import scala.io.StdIn
+package Logical
 
 object Problem1 {
-  def main(args: Array[String]): Unit = {
-    print("Enter weight in kilograms: ")
-    val kg = StdIn.readDouble()
-    val grams = kg * 1000
-    println(s"$kg kg = $grams g")
+
+  def main(args:Array[String]): Unit ={
+  val num = List(1,2,3,4,5,6)
+  val even=num.filter(_%2==0)
+  val odd=num.filter(_%2!=0)
+
+  print("Even numbers:"+even)
+  print("odd numbers:"+odd)
   }
+
+
+
 }
