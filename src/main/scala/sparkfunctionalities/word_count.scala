@@ -16,7 +16,7 @@ object word_count {
         "hello spark",
         "hello scala",
         "spark with scala",
-        "hello spark"
+        "hello spark it is"
       )
 
       // Create RDD
