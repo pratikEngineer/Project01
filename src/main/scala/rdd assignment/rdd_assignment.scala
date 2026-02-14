@@ -11,7 +11,7 @@ object rdd_assignment extends App {
 
   val sc = new SparkContext(conf)
 
-//  //1. Create an RDD using parallelize() with a list of 10 numbers and print all elements.
+// //1. Create an RDD using parallelize() with a list of 10 numbers and print all elements.
   val data1 = List(10, 20, 30, 40, 50, 60, 70, 80, 90, 100)
   val rdd1 = sc.parallelize(data1, 2)
 
