@@ -10,7 +10,7 @@ object SparkConditionalColumns {
       .master("local[4]")
       .getOrCreate()
 
-//    // Question 1: Conditional Column
+//   Question 1: Conditional Column
 //
 //    val employees = List(
 //      (1, "AJAY", 28),
